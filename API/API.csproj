@@ -1,0 +1,67 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\boot-ang1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\boot-ang2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\boot-core1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\boot-core2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\boot-redis1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\glove-code1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\glove-code2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\glove-react1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\glove-react2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\hat-core1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\hat-react1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\hat-react2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\sb-ang1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\sb-ang2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\sb-core1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\sb-core2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\sb-react1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\sb-ts1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._boot-ang1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._boot-ang2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._boot-core1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._boot-core2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._boot-redis1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._glove-code1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._glove-code2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._glove-react1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._glove-react2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._hat-core1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._hat-react1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._hat-react2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._sb-ang1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._sb-ang2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._sb-core1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._sb-core2.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._sb-react1.png" />
+    <_ContentIncludedByDefault Remove="wwwroot\images\products\._sb-ts1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot" />
+  </ItemGroup>
+
+</Project>
